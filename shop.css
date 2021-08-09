@@ -1,0 +1,281 @@
+.nav-top{
+    background-color:white;
+    z-index: 9;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.20);
+}
+.nav-top{
+    border-style: ridge;
+    border-width: 5px;
+    border-color: tomato;
+    border-radius: 30px;
+}
+.nav-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.logo{
+    float: left;
+    width: 60%;
+    
+}
+.logo img{
+    padding: 10px;
+}
+.nav-side{
+    float: right;
+    width: 40%;
+    margin-top: 30px;
+}
+
+.nav-side a{
+    text-decoration: none;
+    margin-right:20px;
+    padding-top: 40px;
+    color: black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bag a{
+    float: left;
+    color: black;
+    display: flex;
+    padding-left: 130px;
+    padding-top: 60px;
+}
+.bag a :hover{
+    color: palevioletred;
+    opacity: 0.8;
+}
+.nav-side a:hover{
+    color: orange;
+    transition: all is ease;
+}
+.main {
+    background-color:white;
+    z-index: 9;
+    padding-top: 240px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.20);
+}
+.main .main-content h2{
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+    color: seagreen;
+    padding-bottom: 50px;
+    color: black;
+}
+.products h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+.products .product-container{
+    display: flex;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.products .product-container .item{
+    width: 33.33%;
+    margin: 10px;
+    height:auto;
+}
+.products .product-container .item:hover{
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.products .product-container .item .item-img{
+    width: 100%;   
+    height: 250px;
+    overflow: hidden;
+}
+.products .product-container .item .item-img img{
+    width: 95%;
+    height: 250px;
+}
+.products .product-container .item .item-img2 img{
+    padding-left: 40px;
+    width: 65%;
+    height: 250px;
+}
+.products .product-container .item .item-img3 img{
+    padding-left: 40px;
+    width: 65%;
+    height: 250px;
+}
+.products .product-container .item .item-container h3{
+  padding: 10px;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.products .product-container .item .item-container p{
+    padding: 10px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.products .product-container .item .item-container a{
+    text-decoration: none;
+    padding-top: 5px;
+    margin: 10px;
+    background-color: white;
+    color: darkcyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    transition: .5s;
+}
+.products .product-container .item .item-container a:hover{
+    background-color:white;
+    color: orange;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0.5s;
+
+}
+.products .but{
+    text-align: center;
+    margin-top: 50px;
+}
+.products .but a{
+    text-decoration: none;
+    background-color: white;
+    color: darkcyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    transition: .5s;
+
+}
+.products .but a:hover{
+    background-color:white;
+    color: orange;
+    border: none;
+    border-bottom: 4px solid rgb(30, 216, 160);
+    transition: 0.5s;
+}
+footer{
+    background-color: rgb(21, 97, 97);
+    padding: 50px;
+}
+footer .pages{
+    text-align: center;
+}
+footer .pages h3{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer .pages a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(150, 139, 119);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer .pages a:hover{
+    color: violet;
+}
+footer .doc{
+    text-align: center;
+}
+footer .doc h3{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer .doc a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(150, 139, 119);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer .doc a:hover{
+    color: violet;
+}
+footer .social{
+    text-align: center;
+}
+footer .social h3{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer .social {
+    text-align: center;
+}
+footer .social h3{
+    color:whitesmoke;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+footer .social a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(186, 12, 209);
+    margin:10px
+}
+footer .social a:hover{
+    color: rgb(190, 230, 15);
+}
+footer .contact{
+    text-align: center;
+}
+footer .contact h3{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer .contact {
+    text-align: center;
+}
+footer .contact h3{
+    color:whitesmoke;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+footer .contact a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(186, 12, 209);
+    margin:10px
+}
+footer .contact a:hover{
+    color: rgb(190, 230, 15);
+}
+footer p{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
